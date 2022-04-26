@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+img{
+    vertical-align: top;
+    border: 0;
+}
+.clearfix::before,
+.clearfix::after{
+    display: block;
+    content:'';
+    clear:both;
+}
+.wrap{
+    width:1500px;
+    margin:0 auto;
+}
+.modal{
+
+}
+.modal > .modal_inner{
+    width:475px;
+    height:400px;
+    position:absolute;
+    background:#00256c;
+    left:68%;
+    top:18%;
+    z-index: 15;
+}
+.modal > .modal_inner > .modal_inner1{
+    width:350px;
+    height:283px;
+    position:absolute;
+    background:white;
+    left:0;
+    top:15%;
+    z-index: 16;  
+}
+.modal > .modal_inner > .modal_inner1 > .modal_inner2{
+    width:350px;
+    height:248px;
+    position:absolute;
+    background:#eee;
+    left:0;
+    top:20%;
+    z-index: 17;  
+}
+.modal > .modal_inner > .tit{}
+.modal > .modal_inner > .modal_inner1 > .tit1{}
+.modal > .modal_inner > .tit > p{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 50px;
+}
+.modal > .modal_inner > .modal_inner1 > .tit1 > p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.modal > .modal_inner > .modal_inner1 > .modal_inner2 > .tit2{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top:10%;
+}
+header{
+    float:left;
+    width: 100%;
+    height:100px;
+    position: relative;
+    background:white;
+}
+header > h1{
+    float:left;
+    padding-top: 20px;
+    padding-left: 8%;
+}
+header > nav{
+    width:800px;
+    float:right;
+    padding-top:35px;
+    padding-right: 10%;;
+
+}
+header > nav > .menu > li{
+    float: left;
+    width:12%;
+}
+header > nav > .menu > li > a{
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+header > aside > .sub{
+    float:right;
+    width:400px;
+}
+header > aside > .sub > li{
+    float:left;
+    width:20%;
+}
+header > aside > .sub > li > a{
+    color:#00256c;
+    font-weight: bold;
+}
+
+.slide{
+    float:left;
+    width:100%;
+    height:500px;
+    position: relative;
+    overflow: hidden;
+}
+.slide > .slide_all{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+}
+.slide > .slide_all > li{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+}
+.threemenu{
+    padding-left:6%;
+    line-height: 140px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.threemenu > a > img{
+    width:60px;
+    height:60px;
+    padding-top: 3%;
+    padding-left: 15%;
+}
+.banner{
+    padding-left: 8%;
+}
+.banner1{
+    margin-top: 5%;
+    width: 100%;
+    height:600px;
+    background-color: #eee;
+}
+.banner1 > p{
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner1 > ul{
+    padding-left:8%;
+    padding-top: 3%;
+}
+.banner1 > ul > li{
+    float:left;
+    margin-left: 2%;
+}
+.banner1 > ul > li:hover{
+    opacity: 0.7;
+}
+.banner1 > ul > li > a > img{
+    width:220px;
+    height:260px;
+}
+.banner7{
+    padding-top: 35px;
+    padding-left: 10%;
+}
+.banner7-1{
+    padding-top: 35px;
+}
+
+.banner2{
+    width:100%;
+    height:430px;
+}
+.banner8{
+    float:left;
+    width:800px;
+    padding-top:10px;
+}
+.banner2 > p{
+    padding-top:10%;
+    font-size: 17px;
+}
+.banner2 > p > .b2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.banner3{
+    width: 100%;
+    height:250px;
+}
+.banner3 > p{
+    padding-top:3%;
+    padding-left: 7%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner3 > ul{
+    padding-top: 20px;
+    padding-left: 4%;
+
+}
+.banner3 > ul > li{
+    float:left;
+    margin-left: 10%;
+    text-align: center;
+}
+.banner3 > ul > li > a{
+    color:black;
+    font-weight: bold;
+}
+footer{
+    float:left;
+    width:100%;
+    height:250px;
+    background:#eee;
+}
+footer > .menu{
+    float: left;
+    width:900px;
+    padding-left: 25%;
+    padding-top:30px;
+
+}
+footer > .menu > li{
+    float: left;
+    width:25%;
+}
+footer > .menu > li > a{
+    color: black;
+    font-weight: bold;
+
+}
+footer > .menu > li > .sub{
+    padding-top:10px;
+}
+footer > .menu > li > .sub > li > a{
+    color:#333333;
+    font-size: 14px;
+}
+.footermenu1{
+    float:left;
+    width:100%;
+    height:180px;
+}
+.footermenu1 > .p1{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footermenu1 > .p2{
+    text-align: center;
+    padding-top:20px ;
+}
